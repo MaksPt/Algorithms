@@ -1,0 +1,132 @@
+-------------------------------------------------------------------------------
+Test set: HW9Test
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 32, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE!
+HW9Test.testIsPositiveNumberHappyPath()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberHappyPath(HW9Test.java:236)
+
+HW9Test.testAreNumbersEqualHappyPath()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testAreNumbersEqualHappyPath(HW9Test.java:299)
+
+HW9Test.testMinMaxAveStartMoreEndInt()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testMinMaxAveStartMoreEndInt(HW9Test.java:433)
+
+HW9Test.testOddIndicesEmpty()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testOddIndicesEmpty(HW9Test.java:86)
+
+HW9Test.testIntersectionHappyPath3()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testIntersectionHappyPath3(HW9Test.java:516)
+
+HW9Test.testBiggerValueMinValueToMaxValue()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testBiggerValueMinValueToMaxValue(HW9Test.java:211)
+
+HW9Test.testBiggerValueEqual()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testBiggerValueEqual(HW9Test.java:222)
+
+HW9Test.testSumArrayNegativeNumbers()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testSumArrayNegativeNumbers(HW9Test.java:127)
+
+HW9Test.testSumArrayMinValue()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testSumArrayMinValue(HW9Test.java:157)
+
+HW9Test.testSumArrayMaxValue()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testSumArrayMaxValue(HW9Test.java:167)
+
+HW9Test.testIsPositiveNumberMinValue()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberMinValue(HW9Test.java:266)
+
+HW9Test.testIsPositiveNumberZero()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberZero(HW9Test.java:246)
+
+HW9Test.testMinMaxAveNegativeEndInt()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testMinMaxAveNegativeEndInt(HW9Test.java:421)
+
+HW9Test.testMinMaxAveArrayEmpty()  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testMinMaxAveArrayEmpty(HW9Test.java:445)
+
+HW9Test.testIntersectionHappyPath()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testIntersectionHappyPath(HW9Test.java:496)
+
+HW9Test.testIntersectionHappyPath2()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testIntersectionHappyPath2(HW9Test.java:506)
+
+HW9Test.testMinMaxAveZeroAverage()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testMinMaxAveZeroAverage(HW9Test.java:469)
+
+HW9Test.testSumArrayHappyPath()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testSumArrayHappyPath(HW9Test.java:117)
+
+HW9Test.testMinMaxAveNegativeStartInt()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testMinMaxAveNegativeStartInt(HW9Test.java:409)
+
+HW9Test.testIsPositiveNumberNegative()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberNegative(HW9Test.java:256)
+
+HW9Test.testMinMaxAveHappyPath()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testMinMaxAveHappyPath(HW9Test.java:397)
+
+HW9Test.testOddIndicesOnlyEven()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testOddIndicesOnlyEven(HW9Test.java:96)
+
+HW9Test.testBiggerValueHappyPath()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testBiggerValueHappyPath(HW9Test.java:189)
+
+HW9Test.testOddEvenHappyPath()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testOddEvenHappyPath(HW9Test.java:33)
+
+HW9Test.testIsPositiveNumberMaxValue()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberMaxValue(HW9Test.java:276)
+
+HW9Test.testMinMaxAveOneIndex()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testMinMaxAveOneIndex(HW9Test.java:457)
+
+HW9Test.testOddIndicesHappyPath()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testOddIndicesHappyPath(HW9Test.java:76)
+
+HW9Test.testBiggerValueNegativeToZero()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testBiggerValueNegativeToZero(HW9Test.java:200)
+
+HW9Test.testAreNumbersEqualMinValueMaxValue()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testAreNumbersEqualMinValueMaxValue(HW9Test.java:328)
+
+HW9Test.testSumArrayNegativePositiveNumbers()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testSumArrayNegativePositiveNumbers(HW9Test.java:147)
+
+HW9Test.testSumArrayEmpty()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testSumArrayEmpty(HW9Test.java:137)
+
+HW9Test.testTask7HappyPath()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at HW9Test.testTask7HappyPath(HW9Test.java:346)
+

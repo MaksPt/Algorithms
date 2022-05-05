@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="32" failures="32" name="HW9Test" time="0.015" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.15+9-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Users\79044\.jdks\corretto-11.0.15\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\79044\IdeaProjects\Algorithms"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\79044\IdeaProjects\Algorithms"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.15+9-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\79044\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Users\79044\.jdks\corretto-11.0.15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\79044\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\79044\AppData\Roaming\npm;C:\Program Files\maven\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\79044"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Максим"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 test"/>
+    <property name="java.home" value="C:\Users\79044\.jdks\corretto-11.0.15"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Corretto-11.0.15.9.1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="HW9Test" name="HW9Test.testIsPositiveNumberHappyPath" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberHappyPath(HW9Test.java:236)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testAreNumbersEqualHappyPath" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testAreNumbersEqualHappyPath(HW9Test.java:299)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testMinMaxAveStartMoreEndInt" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testMinMaxAveStartMoreEndInt(HW9Test.java:433)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testOddIndicesEmpty" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testOddIndicesEmpty(HW9Test.java:86)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testIntersectionHappyPath3" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testIntersectionHappyPath3(HW9Test.java:516)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testBiggerValueMinValueToMaxValue" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testBiggerValueMinValueToMaxValue(HW9Test.java:211)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testBiggerValueEqual" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testBiggerValueEqual(HW9Test.java:222)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testSumArrayNegativeNumbers" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testSumArrayNegativeNumbers(HW9Test.java:127)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testSumArrayMinValue" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testSumArrayMinValue(HW9Test.java:157)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testSumArrayMaxValue" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testSumArrayMaxValue(HW9Test.java:167)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testIsPositiveNumberMinValue" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberMinValue(HW9Test.java:266)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testIsPositiveNumberZero" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberZero(HW9Test.java:246)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testMinMaxAveNegativeEndInt" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testMinMaxAveNegativeEndInt(HW9Test.java:421)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testMinMaxAveArrayEmpty" time="0.015">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testMinMaxAveArrayEmpty(HW9Test.java:445)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testIntersectionHappyPath" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testIntersectionHappyPath(HW9Test.java:496)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testIntersectionHappyPath2" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testIntersectionHappyPath2(HW9Test.java:506)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testMinMaxAveZeroAverage" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testMinMaxAveZeroAverage(HW9Test.java:469)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testSumArrayHappyPath" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testSumArrayHappyPath(HW9Test.java:117)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testMinMaxAveNegativeStartInt" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testMinMaxAveNegativeStartInt(HW9Test.java:409)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testIsPositiveNumberNegative" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberNegative(HW9Test.java:256)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testMinMaxAveHappyPath" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testMinMaxAveHappyPath(HW9Test.java:397)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testOddIndicesOnlyEven" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testOddIndicesOnlyEven(HW9Test.java:96)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testBiggerValueHappyPath" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testBiggerValueHappyPath(HW9Test.java:189)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testOddEvenHappyPath" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testOddEvenHappyPath(HW9Test.java:33)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testIsPositiveNumberMaxValue" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testIsPositiveNumberMaxValue(HW9Test.java:276)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testMinMaxAveOneIndex" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testMinMaxAveOneIndex(HW9Test.java:457)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testOddIndicesHappyPath" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testOddIndicesHappyPath(HW9Test.java:76)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testBiggerValueNegativeToZero" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testBiggerValueNegativeToZero(HW9Test.java:200)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testAreNumbersEqualMinValueMaxValue" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testAreNumbersEqualMinValueMaxValue(HW9Test.java:328)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testSumArrayNegativePositiveNumbers" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testSumArrayNegativePositiveNumbers(HW9Test.java:147)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testSumArrayEmpty" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testSumArrayEmpty(HW9Test.java:137)
+</failure>
+  </testcase>
+  <testcase classname="HW9Test" name="HW9Test.testTask7HappyPath" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HW9Test.testTask7HappyPath(HW9Test.java:346)
+</failure>
+  </testcase>
+</testsuite>
