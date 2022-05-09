@@ -19,6 +19,7 @@ public class StringToNumbersTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
+
     @Test
     public void StringToNumbersZeroAndNegativeNumbers() {
 
@@ -29,6 +30,7 @@ public class StringToNumbersTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
+
     @Test
     public void StringToNumbersLetterAndNumbersAndSymbols() {
 
@@ -40,6 +42,27 @@ public class StringToNumbersTest {
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
 
+    @Test
+    public void StringToNumbersNoNumbers() {
+
+        String str1 = "Hello_ Wo-Rl+=d";
+        int[] expectedResult = {};
+
+        int[] actualResult = stringToNumbers.StringToNumbers(str1);
+
+        Assertions.assertArrayEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void StringToNumbersStringLengthZero() {
+
+        String str1 = "";
+        int[] expectedResult = {};
+
+        int[] actualResult = stringToNumbers.StringToNumbers(str1);
+
+        Assertions.assertArrayEquals(expectedResult, actualResult);
+    }
 
 
 }
