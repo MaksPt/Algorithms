@@ -14,7 +14,7 @@ public class AreNumbersEqualTest {
         int b = 89;
         int expectedResult = 0;
 
-        int actualResult = areNumbersEqual.AreNumbersEqual(a, b);
+        int actualResult = areNumbersEqual.areNumbersEqual(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -25,7 +25,7 @@ public class AreNumbersEqualTest {
         int b = 89;
         int expectedResult = -1;
 
-        int actualResult = areNumbersEqual.AreNumbersEqual(a, b);
+        int actualResult = areNumbersEqual.areNumbersEqual(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -36,7 +36,7 @@ public class AreNumbersEqualTest {
         int b = -89;
         int expectedResult = 1;
 
-        int actualResult = areNumbersEqual.AreNumbersEqual(a, b);
+        int actualResult = areNumbersEqual.areNumbersEqual(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }

@@ -1,6 +1,6 @@
 public class StringToNumbers {
 
-    public int[] StringToNumbers(String str1) {
+    public int[] stringToNumbers(String str1) {
 
         if (str1.length() > 0 && str1 != null) {
             int count = 0;

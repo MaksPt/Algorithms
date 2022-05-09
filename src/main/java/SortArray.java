@@ -1,7 +1,7 @@
 public class SortArray {
     Utils utils = new Utils();
 
-    public int[] SortArray(int[] array) {
+    public int[] sortArray(int[] array) {
 
         if (utils.notEmptyArrays(array) == true) {
 

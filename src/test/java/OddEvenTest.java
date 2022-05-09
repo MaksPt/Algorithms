@@ -14,7 +14,7 @@ public class OddEvenTest {
         int a = -345;
         String expectedResult = "Odd";
 
-        String actualResult = oddEven.OddEven(a);
+        String actualResult = oddEven.oddEven(a);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -24,7 +24,7 @@ public class OddEvenTest {
         int a = 0;
         String expectedResult = "Even";
 
-        String actualResult = oddEven.OddEven(a);
+        String actualResult = oddEven.oddEven(a);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -34,7 +34,7 @@ public class OddEvenTest {
         int a = 222222;
         String expectedResult = "Even";
 
-        String actualResult = oddEven.OddEven(a);
+        String actualResult = oddEven.oddEven(a);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -44,7 +44,7 @@ public class OddEvenTest {
         int a = Integer.MAX_VALUE + 1;
         String expectedResult = "Undefined";
 
-        String actualResult = oddEven.OddEven(a);
+        String actualResult = oddEven.oddEven(a);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -54,7 +54,7 @@ public class OddEvenTest {
         int a = Integer.MIN_VALUE - 1;
         String expectedResult = "Undefined";
 
-        String actualResult = oddEven.OddEven(a);
+        String actualResult = oddEven.oddEven(a);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }

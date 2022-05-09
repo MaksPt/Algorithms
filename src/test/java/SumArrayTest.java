@@ -13,7 +13,7 @@ public class SumArrayTest {
         int[] array = {0, 1, 2, 3, 4, 5};
         int expectedResult = 15;
 
-        int actualResult = sumArray.SumArray(array);
+        int actualResult = sumArray.sumArray(array);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -23,7 +23,7 @@ public class SumArrayTest {
         int[] array = {-7, -3};
         int expectedResult = -10;
 
-        int actualResult = sumArray.SumArray(array);
+        int actualResult = sumArray.sumArray(array);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -33,7 +33,7 @@ public class SumArrayTest {
         int[] array = {};
         int expectedResult = 0;
 
-        int actualResult = sumArray.SumArray(array);
+        int actualResult = sumArray.sumArray(array);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -43,7 +43,7 @@ public class SumArrayTest {
         int[] array = {-3, -2, -1, 0, 1, 2, 3};
         int expectedResult = 0;
 
-        int actualResult = sumArray.SumArray(array);
+        int actualResult = sumArray.sumArray(array);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -53,7 +53,7 @@ public class SumArrayTest {
         int[] array = {2147483647, 1};
         int expectedResult = Integer.MIN_VALUE;
 
-        int actualResult = sumArray.SumArray(array);
+        int actualResult = sumArray.sumArray(array);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -63,7 +63,7 @@ public class SumArrayTest {
         int[] array = {-2147483648, -1};
         int expectedResult = Integer.MAX_VALUE;
 
-        int actualResult = sumArray.SumArray(array);
+        int actualResult = sumArray.sumArray(array);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }

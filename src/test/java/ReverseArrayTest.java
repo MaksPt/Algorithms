@@ -13,7 +13,7 @@ public class ReverseArrayTest {
         int[] array = {2, 7, 3, 10};
         int[] expectedResult = {10, 3, 7, 2};
 
-        int[] actualResult = reverseArray.ReverseArray(array);
+        int[] actualResult = reverseArray.reverseArray(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -23,7 +23,7 @@ public class ReverseArrayTest {
         int[] array = {2, 7, 5, 3, 10};
         int[] expectedResult = {10, 3, 5, 7, 2};
 
-        int[] actualResult = reverseArray.ReverseArray(array);
+        int[] actualResult = reverseArray.reverseArray(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -33,7 +33,7 @@ public class ReverseArrayTest {
         int[] array = {};
         int[] expectedResult = {};
 
-        int[] actualResult = reverseArray.ReverseArray(array);
+        int[] actualResult = reverseArray.reverseArray(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -43,7 +43,7 @@ public class ReverseArrayTest {
         int[] array = {5};
         int[] expectedResult = {5};
 
-        int[] actualResult = reverseArray.ReverseArray(array);
+        int[] actualResult = reverseArray.reverseArray(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }

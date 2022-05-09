@@ -13,7 +13,7 @@ public class NegativeOnTheRightTest {
         int[] array = {4, -3, 7, -12, 5, -2, 9, 4, 12};
         int[] expectedResult = {4, 7, 5, 9, 4, 12, -2, -12, -3};
 
-        int[] actualResult = negativeOnTheRight.NegativeOnTheRight(array);
+        int[] actualResult = negativeOnTheRight.negativeOnTheRight(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -23,7 +23,7 @@ public class NegativeOnTheRightTest {
         int[] array = {-4, -3, -7, -12, 5, -2, 9, 4, -12};
         int[] expectedResult = {5, 9, 4, -12, -2, -12, -7, -3, -4};
 
-        int[] actualResult = negativeOnTheRight.NegativeOnTheRight(array);
+        int[] actualResult = negativeOnTheRight.negativeOnTheRight(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -33,7 +33,7 @@ public class NegativeOnTheRightTest {
         int[] array = {};
         int[] expectedResult = {};
 
-        int[] actualResult = negativeOnTheRight.NegativeOnTheRight(array);
+        int[] actualResult = negativeOnTheRight.negativeOnTheRight(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -43,7 +43,7 @@ public class NegativeOnTheRightTest {
         int[] array = {1};
         int[] expectedResult = {1};
 
-        int[] actualResult = negativeOnTheRight.NegativeOnTheRight(array);
+        int[] actualResult = negativeOnTheRight.negativeOnTheRight(array);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }

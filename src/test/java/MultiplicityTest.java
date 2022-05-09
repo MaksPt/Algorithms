@@ -10,40 +10,40 @@ public class MultiplicityTest {
 
     @Test
     public void testMultiplicityMultipleOfThreeAndFive() {
-        int M = 15;
+        int m = 15;
         String expectedResult = "Good Number";
 
-        String actualResult = multiplicity.Multiplicity(M);
+        String actualResult = multiplicity.multiplicity(m);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
     @Test
     public void testMultiplicityMultipleOfThreeAndNotOfFive() {
-        int M = -3;
+        int m = -3;
         String expectedResult = "Bad Number";
 
-        String actualResult = multiplicity.Multiplicity(M);
+        String actualResult = multiplicity.multiplicity(m);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
     @Test
     public void testMultiplicityMultipleOfFiveAndNotOfThree() {
-        int M = 20;
+        int m = 20;
         String expectedResult = "Poor Number";
 
-        String actualResult = multiplicity.Multiplicity(M);
+        String actualResult = multiplicity.multiplicity(m);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
     @Test
     public void testMultiplicitySatisfyAnyOfTheAboveConditions() {
-        int M = -22;
+        int m = -22;
         String expectedResult = "-1";
 
-        String actualResult = multiplicity.Multiplicity(M);
+        String actualResult = multiplicity.multiplicity(m);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }

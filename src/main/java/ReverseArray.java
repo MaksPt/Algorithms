@@ -1,6 +1,6 @@
 public class ReverseArray {
 
-    public int[] ReverseArray(int array[]) {
+    public int[] reverseArray(int array[]) {
 
         int[] result = new int[array.length];
         int count = array.length - 1;

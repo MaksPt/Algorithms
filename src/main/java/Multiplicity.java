@@ -1,6 +1,6 @@
 public class Multiplicity {
 
-    public String Multiplicity(int m) {
+    public String multiplicity(int m) {
 
         if (m % 3 == 0 && m % 5 == 0) {
 

@@ -17,7 +17,7 @@ public class MinMaxAveTest {
         int end = 1;
         int[] expectedResult = {2, 8, 5};
 
-        int[] actualResult = minMaxAve.MinMaxAve(array, start, end);
+        int[] actualResult = minMaxAve.minMaxAve(array, start, end);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -29,7 +29,7 @@ public class MinMaxAveTest {
         int end = 2;
         int[] expectedResult = {};
 
-        int[] actualResult = minMaxAve.MinMaxAve(array, start, end);
+        int[] actualResult = minMaxAve.minMaxAve(array, start, end);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -41,7 +41,7 @@ public class MinMaxAveTest {
         int end = -2;
         int[] expectedResult = {};
 
-        int[] actualResult = minMaxAve.MinMaxAve(array, start, end);
+        int[] actualResult = minMaxAve.minMaxAve(array, start, end);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -53,7 +53,7 @@ public class MinMaxAveTest {
         int end = 2;
         int[] expectedResult = {3, 7, 5};
 
-        int[] actualResult = minMaxAve.MinMaxAve(array, start, end);
+        int[] actualResult = minMaxAve.minMaxAve(array, start, end);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -65,7 +65,7 @@ public class MinMaxAveTest {
         int end = 2;
         int[] expectedResult = {};
 
-        int[] actualResult = minMaxAve.MinMaxAve(array, start, end);
+        int[] actualResult = minMaxAve.minMaxAve(array, start, end);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -77,7 +77,7 @@ public class MinMaxAveTest {
         int end = 0;
         int[] expectedResult = {1, 1, 1};
 
-        int[] actualResult = minMaxAve.MinMaxAve(array, start, end);
+        int[] actualResult = minMaxAve.minMaxAve(array, start, end);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -89,7 +89,7 @@ public class MinMaxAveTest {
         int end = 7;
         int[] expectedResult = {-100, 100, 0};
 
-        int[] actualResult = minMaxAve.MinMaxAve(array, start, end);
+        int[] actualResult = minMaxAve.minMaxAve(array, start, end);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }

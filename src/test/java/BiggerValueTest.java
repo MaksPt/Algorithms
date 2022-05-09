@@ -14,7 +14,7 @@ public class BiggerValueTest {
         int b = 9999;
         int expectedResult = 9999;
 
-        int actualResult = biggerValue.BiggerValue(a, b);
+        int actualResult = biggerValue.biggerValue(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -25,7 +25,7 @@ public class BiggerValueTest {
         int b = -9999;
         int expectedResult = 3333;
 
-        int actualResult = biggerValue.BiggerValue(a, b);
+        int actualResult = biggerValue.biggerValue(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -36,7 +36,7 @@ public class BiggerValueTest {
         int b = 0;
         int expectedResult = Integer.MAX_VALUE;
 
-        int actualResult = biggerValue.BiggerValue(a, b);
+        int actualResult = biggerValue.biggerValue(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -47,7 +47,7 @@ public class BiggerValueTest {
         int b = Integer.MAX_VALUE;
         int expectedResult = Integer.MAX_VALUE;
 
-        int actualResult = biggerValue.BiggerValue(a, b);
+        int actualResult = biggerValue.biggerValue(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -58,7 +58,7 @@ public class BiggerValueTest {
         int b = 2;
         int expectedResult = 2;
 
-        int actualResult = biggerValue.BiggerValue(a, b);
+        int actualResult = biggerValue.biggerValue(a, b);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }

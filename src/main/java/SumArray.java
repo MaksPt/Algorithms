@@ -1,7 +1,7 @@
 public class SumArray {
     Utils utils = new Utils();
 
-    public int SumArray(int[] array) {
+    public int sumArray(int[] array) {
 
         if (utils.notEmptyArrays(array) == true) {
             int sum = 0;

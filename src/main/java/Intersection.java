@@ -1,6 +1,6 @@
 public class Intersection {
 
-    public int[] Intersection(int[] array1, int[] array2) {
+    public int[] intersection(int[] array1, int[] array2) {
         int count = 0;
         int[] emptyArray = {};
 

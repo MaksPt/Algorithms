@@ -1,7 +1,7 @@
 public class OddIndices {
     Utils utils = new Utils();
 
-    public int[] OddIndices(int[] array) {
+    public int[] oddIndices(int[] array) {
 
         if (utils.notEmptyArrays(array) == true) {
 

@@ -1,6 +1,6 @@
 public class NegativeOnTheRight {
 
-    public int[] NegativeOnTheRight(int[] array) {
+    public int[] negativeOnTheRight(int[] array) {
 
         int[] result = new int[array.length];
         int count = result.length - 1;

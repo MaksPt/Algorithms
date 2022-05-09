@@ -1,6 +1,6 @@
 public class MinMaxAve {
 
-    public int[] MinMaxAve(int[] array, int start, int end) {
+    public int[] minMaxAve(int[] array, int start, int end) {
 
         int[] result = new int[0];
         int[] MinMaxAve = new int[3];

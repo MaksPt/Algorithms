@@ -1,6 +1,6 @@
 public class AreNumbersEqual {
 
-    public int AreNumbersEqual(int a, int b) {
+    public int areNumbersEqual(int a, int b) {
         if (a == b) {
 
             return 0;

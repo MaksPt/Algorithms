@@ -14,7 +14,7 @@ public class IntersectionTest {
         int[] array2 = {8, 9, 4, 2};
         int[] expectedResult = {2, 4};
 
-        int[] actualResult = intersection.Intersection(array1, array2);
+        int[] actualResult = intersection.intersection(array1, array2);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -25,7 +25,7 @@ public class IntersectionTest {
         int[] array2 = {8, 9, -4, -2};
         int[] expectedResult = {8, 9};
 
-        int[] actualResult = intersection.Intersection(array1, array2);
+        int[] actualResult = intersection.intersection(array1, array2);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -36,7 +36,7 @@ public class IntersectionTest {
         int[] array2 = {8, 9, 45};
         int[] expectedResult = {};
 
-        int[] actualResult = intersection.Intersection(array1, array2);
+        int[] actualResult = intersection.intersection(array1, array2);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -47,7 +47,7 @@ public class IntersectionTest {
         int[] array2 = {8, 9, 45};
         int[] expectedResult = {};
 
-        int[] actualResult = intersection.Intersection(array1, array2);
+        int[] actualResult = intersection.intersection(array1, array2);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -58,7 +58,7 @@ public class IntersectionTest {
         int[] array2 = {};
         int[] expectedResult = {};
 
-        int[] actualResult = intersection.Intersection(array1, array2);
+        int[] actualResult = intersection.intersection(array1, array2);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -69,7 +69,7 @@ public class IntersectionTest {
         int[] array2 = {1, 1, 1, 2, 2, 2, 3, 5, 6};
         int[] expectedResult = {1, 2, 3};
 
-        int[] actualResult = intersection.Intersection(array1, array2);
+        int[] actualResult = intersection.intersection(array1, array2);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -80,7 +80,7 @@ public class IntersectionTest {
         int[] array2 = {1, 1, 2, 2, -3};
         int[] expectedResult = {2, -3};
 
-        int[] actualResult = intersection.Intersection(array1, array2);
+        int[] actualResult = intersection.intersection(array1, array2);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
@@ -91,7 +91,7 @@ public class IntersectionTest {
         int[] array2 = {-1, -1, -1};
         int[] expectedResult = {-1};
 
-        int[] actualResult = intersection.Intersection(array1, array2);
+        int[] actualResult = intersection.intersection(array1, array2);
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }

@@ -14,7 +14,7 @@ public class KthLargestTest {
         int k = 3;
         int expectedResult = 9;
 
-        int actualResult = kthLargest.KthLargest(array,k);
+        int actualResult = kthLargest.kthLargest(array,k);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -25,7 +25,7 @@ public class KthLargestTest {
         int k = 1;
         int expectedResult = 12;
 
-        int actualResult = kthLargest.KthLargest(array,k);
+        int actualResult = kthLargest.kthLargest(array,k);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -36,7 +36,7 @@ public class KthLargestTest {
         int k = array.length;
         int expectedResult = 2;
 
-        int actualResult = kthLargest.KthLargest(array,k);
+        int actualResult = kthLargest.kthLargest(array,k);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -47,7 +47,7 @@ public class KthLargestTest {
         int k = array.length + 1;
         int expectedResult = Integer.MIN_VALUE;
 
-        int actualResult = kthLargest.KthLargest(array,k);
+        int actualResult = kthLargest.kthLargest(array,k);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -58,7 +58,7 @@ public class KthLargestTest {
         int k = 0;
         int expectedResult = Integer.MIN_VALUE;
 
-        int actualResult = kthLargest.KthLargest(array,k);
+        int actualResult = kthLargest.kthLargest(array,k);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -69,7 +69,7 @@ public class KthLargestTest {
         int k = 0;
         int expectedResult = Integer.MIN_VALUE;
 
-        int actualResult = kthLargest.KthLargest(array,k);
+        int actualResult = kthLargest.kthLargest(array,k);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -80,7 +80,7 @@ public class KthLargestTest {
         int k = -5;
         int expectedResult = Integer.MIN_VALUE;
 
-        int actualResult = kthLargest.KthLargest(array,k);
+        int actualResult = kthLargest.kthLargest(array,k);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -91,20 +91,8 @@ public class KthLargestTest {
         int k = 5;
         int expectedResult = Integer.MIN_VALUE;
 
-        int actualResult = kthLargest.KthLargest(array,k);
+        int actualResult = kthLargest.kthLargest(array,k);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
-/**
-
-
-
-
-
-
- **/
-
-
-
 }
