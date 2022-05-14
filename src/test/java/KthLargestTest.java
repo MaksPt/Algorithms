@@ -1,4 +1,6 @@
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class KthLargestTest {
     KthLargest kthLargest;
@@ -9,7 +11,7 @@ public class KthLargestTest {
     }
 
     @Test
-    public void KthLargestHappyPath() {
+    public void testKthLargestHappyPath() {
         int[] array = {4, 3, 7, 12, 5, 2, 9, 4, 12};
         int k = 3;
         int expectedResult = 9;
@@ -20,7 +22,7 @@ public class KthLargestTest {
     }
 
     @Test
-    public void KthLargestMaxValue() {
+    public void testKthLargestMaxValue() {
         int[] array = {4, 3, 7, 12, 5, 2, 9, 4, 12};
         int k = 1;
         int expectedResult = 12;
@@ -31,7 +33,7 @@ public class KthLargestTest {
     }
 
     @Test
-    public void KthLargestMinValue() {
+    public void testKthLargestMinValue() {
         int[] array = {4, 3, 7, 12, 5, 2, 9, 4, 12};
         int k = array.length;
         int expectedResult = 2;
@@ -42,7 +44,7 @@ public class KthLargestTest {
     }
 
     @Test
-    public void KthLargestMoreThanMaxValue() {
+    public void testKthLargestMoreThanMaxValue() {
         int[] array = {4, 3, 7, 12, 5, 2, 9, 4, 12};
         int k = array.length + 1;
         int expectedResult = Integer.MIN_VALUE;
@@ -53,7 +55,7 @@ public class KthLargestTest {
     }
 
     @Test
-    public void KthLargestEmptyArrayAndZeroKth() {
+    public void testKthLargestEmptyArrayAndZeroKth() {
         int[] array = {};
         int k = 0;
         int expectedResult = Integer.MIN_VALUE;
@@ -64,7 +66,7 @@ public class KthLargestTest {
     }
 
     @Test
-    public void KthLargestValidArrayZeroKth() {
+    public void testKthLargestValidArrayZeroKth() {
         int[] array = {4, 3, 7, 12};
         int k = 0;
         int expectedResult = Integer.MIN_VALUE;
@@ -75,7 +77,7 @@ public class KthLargestTest {
     }
 
     @Test
-    public void KthLargestValidArrayNegativeKth() {
+    public void testKthLargestValidArrayNegativeKth() {
         int[] array = {4, 3, 7, 12};
         int k = -5;
         int expectedResult = Integer.MIN_VALUE;
@@ -86,7 +88,7 @@ public class KthLargestTest {
     }
 
     @Test
-    public void KthLargestEmptyArrayValidKth() {
+    public void testKthLargestEmptyArrayValidKth() {
         int[] array = {};
         int k = 5;
         int expectedResult = Integer.MIN_VALUE;

@@ -1,4 +1,6 @@
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class StringToLettersTest {
     StringToLetters stringToLetters;
@@ -8,7 +10,7 @@ public class StringToLettersTest {
         stringToLetters = new StringToLetters();
     }
     @Test
-    public void StringToLettersHappyPath() {
+    public void testStringToLettersHappyPath() {
         String str1 = "AaBqWzZ";
         String expectedResult = "AaBqWzZ";
 
@@ -17,7 +19,7 @@ public class StringToLettersTest {
         Assertions.assertEquals(expectedResult,actualResult);
     }
     @Test
-    public void StringToLettersCyrillicAlphabet() {
+    public void testStringToLettersCyrillicAlphabet() {
         String str1 = "AaЁеКлМнЯя";
         String expectedResult = "AaЁеКлМнЯя";
 
@@ -26,7 +28,7 @@ public class StringToLettersTest {
         Assertions.assertEquals(expectedResult,actualResult);
     }
     @Test
-    public void StringToLettersLettersWithNumbers() {
+    public void testStringToLettersLettersWithNumbers() {
         String str1 = "AaBqWzZ12309-5";
         String expectedResult = "AaBqWzZ";
 
@@ -35,7 +37,7 @@ public class StringToLettersTest {
         Assertions.assertEquals(expectedResult,actualResult);
     }
     @Test
-    public void StringToLettersLettersWithNumbersAndSymbolsAndSpaces() {
+    public void testStringToLettersLettersWithNumbersAndSymbolsAndSpaces() {
         String str1 = "AaBqWzZ12309-5 ~)9&^%$#!@-*/+ ?.>,}]{[";
         String expectedResult = "AaBqWzZ";
 
@@ -44,7 +46,7 @@ public class StringToLettersTest {
         Assertions.assertEquals(expectedResult,actualResult);
     }
     @Test
-    public void StringToLettersOnlyNumbersAndSymbolsAndSpaces() {
+    public void testStringToLettersOnlyNumbersAndSymbolsAndSpaces() {
         String str1 = "12309-5 ~)9&^%$#!@-*/+ ?.>,";
         String expectedResult = "";
 
@@ -53,7 +55,7 @@ public class StringToLettersTest {
         Assertions.assertEquals(expectedResult,actualResult);
     }
     @Test
-    public void StringToLettersLengthZero() {
+    public void testStringToLettersLengthZero() {
         String str1 = "";
         String expectedResult = "";
 

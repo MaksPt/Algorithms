@@ -11,7 +11,7 @@ public class StringToNumbersStringTest {
     }
 
     @Test
-    public void stringToNumbersStringHappyPath() {
+    public void testStringToNumbersStringHappyPath() {
         String str1 = "0123456789";
         String expectedResult = "0123456789";
 
@@ -21,7 +21,7 @@ public class StringToNumbersStringTest {
     }
 
     @Test
-    public void stringToNumbersStringNegativeNumbers() {
+    public void testStringToNumbersStringNegativeNumbers() {
         String str1 = "0-1-2-34567-8-9";
         String expectedResult = "0123456789";
 
@@ -31,7 +31,7 @@ public class StringToNumbersStringTest {
     }
 
     @Test
-    public void stringToNumbersStringLettersWithNumbersAndSpaces() {
+    public void testStringToNumbersStringLettersWithNumbersAndSpaces() {
         String str1 = " A a B q W z Z 1 2 309-5q";
         String expectedResult = "123095";
 
@@ -41,7 +41,7 @@ public class StringToNumbersStringTest {
     }
 
     @Test
-    public void stringToNumbersStringOneNumber() {
+    public void testStringToNumbersStringOneNumber() {
         String str1 = "0";
         String expectedResult = "0";
 
@@ -51,7 +51,7 @@ public class StringToNumbersStringTest {
     }
 
     @Test
-    public void stringToNumbersStringLettersWithNumbersAndSymbolsAndSpaces() {
+    public void testStringToNumbersStringLettersWithNumbersAndSymbolsAndSpaces() {
         String str1 = "A aBq WzZ12309- 5 ~)9&^%$ u#!@-*/+ ?.>,}]{[";
         String expectedResult = "1230959";
 
@@ -61,7 +61,7 @@ public class StringToNumbersStringTest {
     }
 
     @Test
-    public void stringToNumbersStringOnlyNumbersAndSymbolsAndSpaces() {
+    public void testStringToNumbersStringOnlyNumbersAndSymbolsAndSpaces() {
         String str1 = "12309-5 ~)9&^%$#!@-*/+ ?.>, ";
         String expectedResult = "1230959";
 
@@ -71,7 +71,7 @@ public class StringToNumbersStringTest {
     }
 
     @Test
-    public void stringToNumbersStringLengthZero() {
+    public void testStringToNumbersStringLengthZero() {
         String str1 = "";
         String expectedResult = "";
 

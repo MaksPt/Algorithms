@@ -1,4 +1,6 @@
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class SortArrayTest {
     SortArray sortArray;
@@ -9,7 +11,7 @@ public class SortArrayTest {
     }
 
     @Test
-    public void SortArrayPositiveNumbers() {
+    public void testSortArrayPositiveNumbers() {
         int[] array = {4, 3, 7, 12, 5, 2, 9, 4, 12};
         int[] expectedResult = {2, 3, 4, 4, 5, 7, 9, 12, 12};
 
@@ -19,7 +21,7 @@ public class SortArrayTest {
     }
 
     @Test
-    public void SortArrayNegativeNumbers() {
+    public void testSortArrayNegativeNumbers() {
         int[] array = {-4, -3, -7, -12, -5, -2, -9, -4, -12};
         int[] expectedResult = {-12, -12, -9, -7, -5, -4, -4, -3, -2};
 
@@ -29,7 +31,7 @@ public class SortArrayTest {
     }
 
     @Test
-    public void SortArrayNegativeToPositiveNumbers() {
+    public void testSortArrayNegativeToPositiveNumbers() {
         int[] array = {Integer.MAX_VALUE, -3, 7, 0, -10, 1, Integer.MIN_VALUE};
         int[] expectedResult = {Integer.MIN_VALUE, -10, -3, 0, 1, 7, Integer.MAX_VALUE};
 
@@ -39,7 +41,7 @@ public class SortArrayTest {
     }
 
     @Test
-    public void SortArrayNegativeOneNumberZero() {
+    public void testSortArrayNegativeOneNumberZero() {
         int[] array = {0};
         int[] expectedResult = {0};
 
@@ -49,7 +51,7 @@ public class SortArrayTest {
     }
 
     @Test
-    public void SortArrayNegativeSomeOneNumber() {
+    public void testSortArrayNegativeSomeOneNumber() {
         int[] array = {5};
         int[] expectedResult = {5};
 
@@ -59,7 +61,7 @@ public class SortArrayTest {
     }
 
     @Test
-    public void SortArrayEqualsNumbers() {
+    public void testSortArrayEqualsNumbers() {
         int[] array = {2,2,2,2};
         int[] expectedResult = {2,2,2,2};
 
@@ -69,7 +71,7 @@ public class SortArrayTest {
     }
 
     @Test
-    public void SortArrayEmptyArray() {
+    public void testSortArrayEmptyArray() {
         int[] array = {};
         int[] expectedResult = {};
 

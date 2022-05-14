@@ -11,7 +11,7 @@ public class StringToLettersAndSpacesTest {
     }
 
     @Test
-    public void stringToLettersAndSpacesHappyPath() {
+    public void testStringToLettersAndSpacesHappyPath() {
         String str1 = " A a B q W z Z ";
         String expectedResult = " A a B q W z Z ";
 
@@ -21,7 +21,7 @@ public class StringToLettersAndSpacesTest {
     }
 
     @Test
-    public void stringToLettersAndSpacesCyrillicAlphabet() {
+    public void testStringToLettersAndSpacesCyrillicAlphabet() {
         String str1 = "A a Ё е К л М н Я я";
         String expectedResult = "A a Ё е К л М н Я я";
 
@@ -31,7 +31,7 @@ public class StringToLettersAndSpacesTest {
     }
 
     @Test
-    public void stringToLettersAndSpacesLettersWithNumbers() {
+    public void testStringToLettersAndSpacesLettersWithNumbers() {
         String str1 = " A a B q W z Z 1 2 309-5q";
         String expectedResult = " A a B q W z Z   q";
 
@@ -41,7 +41,7 @@ public class StringToLettersAndSpacesTest {
     }
 
     @Test
-    public void stringToLettersAndSpacesOnlySpace() {
+    public void testStringToLettersAndSpacesOnlySpace() {
         String str1 = " ";
         String expectedResult = " ";
 
@@ -51,7 +51,7 @@ public class StringToLettersAndSpacesTest {
     }
 
     @Test
-    public void stringToLettersAndSpacesLettersWithNumbersAndSymbolsAndSpaces() {
+    public void testStringToLettersAndSpacesLettersWithNumbersAndSymbolsAndSpaces() {
         String str1 = "A aBq WzZ12309- 5 ~)9&^%$ u#!@-*/+ ?.>,}]{[";
         String expectedResult = "A aBq WzZ   u ";
 
@@ -61,7 +61,7 @@ public class StringToLettersAndSpacesTest {
     }
 
     @Test
-    public void stringToLettersAndSpacesOnlyNumbersAndSymbolsAndSpaces() {
+    public void testStringToLettersAndSpacesOnlyNumbersAndSymbolsAndSpaces() {
         String str1 = "12309-5 ~)9&^%$#!@-*/+ ?.>, ";
         String expectedResult = "   ";
 
@@ -71,7 +71,7 @@ public class StringToLettersAndSpacesTest {
     }
 
     @Test
-    public void stringToLettersAndSpacesLengthZero() {
+    public void testStringToLettersAndSpacesLengthZero() {
         String str1 = "";
         String expectedResult = "";
 

@@ -1,4 +1,6 @@
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class StringToNumbersTest {
 
@@ -10,7 +12,7 @@ public class StringToNumbersTest {
     }
 
     @Test
-    public void StringToNumbersHappyPath() {
+    public void testStringToNumbersHappyPath() {
 
         String str1 = "1, 2, 3, 4, 5";
         int[] expectedResult = {1, 2, 3, 4, 5};
@@ -21,7 +23,7 @@ public class StringToNumbersTest {
     }
 
     @Test
-    public void StringToNumbersZeroAndNegativeNumbers() {
+    public void testStringToNumbersZeroAndNegativeNumbers() {
 
         String str1 = "0, -10, -3, 0, 5";
         int[] expectedResult = {0, 1, 0, 3, 0, 5};
@@ -32,7 +34,7 @@ public class StringToNumbersTest {
     }
 
     @Test
-    public void StringToNumbersLetterAndNumbersAndSymbols() {
+    public void testStringToNumbersLetterAndNumbersAndSymbols() {
 
         String str1 = "Hello2_ 5Wo-3Rl+=d0203";
         int[] expectedResult = {2, 5, 3, 0, 2, 0, 3};
@@ -43,7 +45,7 @@ public class StringToNumbersTest {
     }
 
     @Test
-    public void StringToNumbersNoNumbers() {
+    public void testStringToNumbersNoNumbers() {
 
         String str1 = "Hello_ Wo-Rl+=d";
         int[] expectedResult = {};
@@ -54,7 +56,7 @@ public class StringToNumbersTest {
     }
 
     @Test
-    public void StringToNumbersStringLengthZero() {
+    public void testStringToNumbersStringLengthZero() {
 
         String str1 = "";
         int[] expectedResult = {};

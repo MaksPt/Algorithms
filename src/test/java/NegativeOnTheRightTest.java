@@ -1,4 +1,6 @@
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class NegativeOnTheRightTest {
     NegativeOnTheRight negativeOnTheRight;
@@ -9,7 +11,7 @@ public class NegativeOnTheRightTest {
     }
 
     @Test
-    public void NegativeOnTheRightLastNumberIsPositive() {
+    public void testNegativeOnTheRightLastNumberIsPositive() {
         int[] array = {4, -3, 7, -12, 5, -2, 9, 4, 12};
         int[] expectedResult = {4, 7, 5, 9, 4, 12, -2, -12, -3};
 
@@ -19,7 +21,7 @@ public class NegativeOnTheRightTest {
     }
 
     @Test
-    public void NegativeOnTheRightLastNumberIsNegative() {
+    public void testNegativeOnTheRightLastNumberIsNegative() {
         int[] array = {-4, -3, -7, -12, 5, -2, 9, 4, -12};
         int[] expectedResult = {5, 9, 4, -12, -2, -12, -7, -3, -4};
 
@@ -29,7 +31,7 @@ public class NegativeOnTheRightTest {
     }
 
     @Test
-    public void NegativeOnTheRightEmptyArray() {
+    public void testNegativeOnTheRightEmptyArray() {
         int[] array = {};
         int[] expectedResult = {};
 
@@ -39,7 +41,7 @@ public class NegativeOnTheRightTest {
     }
 
     @Test
-    public void NegativeOnTheRightOneNumber() {
+    public void testNegativeOnTheRightOneNumber() {
         int[] array = {1};
         int[] expectedResult = {1};
 
