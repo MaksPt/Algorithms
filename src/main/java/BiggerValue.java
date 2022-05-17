@@ -3,7 +3,7 @@ public class BiggerValue {
 
     public int biggerValue(int a, int b) {
 
-        if (utils.intDiapason(a) == true && utils.intDiapason(b) == true) {
+        if (utils.isIntDiapason(a) == true && utils.isIntDiapason(b) == true) {
             if (a >= b) {
 
                 return a;

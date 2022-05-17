@@ -73,4 +73,14 @@ public class StartsWithLetterTest {
 
         Assertions.assertEquals(expectedResult,actualResult);
     }
+
+    @Test
+    public void testStartsWithLetterStrOneIsNull(){
+        String str1 = null;
+        String expectedResult = "";
+
+        String actualResult = startsWithLetter.startsWithLetter(str1);
+
+        Assertions.assertEquals(expectedResult,actualResult);
+    }
 }

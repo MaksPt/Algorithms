@@ -2,7 +2,7 @@ public class StringToNumbers {
 
     public int[] stringToNumbers(String str1) {
 
-        if (str1.length() > 0 && str1 != null) {
+        if (str1 != null && str1.length() > 0) {
             int count = 0;
 
             for (int i = 0; i < str1.length(); i++) {

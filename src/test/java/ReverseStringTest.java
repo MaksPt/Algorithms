@@ -39,4 +39,14 @@ public class ReverseStringTest {
 
         Assertions.assertEquals(expectedResult,actualResult);
     }
+
+    @Test
+    public void testReverseStringTestStrOneIsNull() {
+        String str1 = null;
+        String expectedResult = "";
+
+        String actualResult = reverseString.reverseString(str1);
+
+        Assertions.assertEquals(expectedResult,actualResult);
+    }
 }

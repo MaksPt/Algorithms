@@ -122,5 +122,38 @@ public class CountWordsTest {
         Assertions.assertEquals(expectedResult, actualResult);
     }
 
+    @Test
+    public void testCountWordsStrOneAndTwoAreNull() {
+        String str1 = null;
+        String str2 = null;
+        int expectedResult = Integer.MIN_VALUE;
+
+        int actualResult = countWords.countWords(str1, str2);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void testCountWordsStrOneIsNull() {
+        String str1 = null;
+        String str2 = "Hello";
+        int expectedResult = Integer.MIN_VALUE;
+
+        int actualResult = countWords.countWords(str1, str2);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
+    @Test
+    public void testCountWordsStrTwoIsNull() {
+        String str1 = "Hello";
+        String str2 = null;
+        int expectedResult = Integer.MIN_VALUE;
+
+        int actualResult = countWords.countWords(str1, str2);
+
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
+
 
 }

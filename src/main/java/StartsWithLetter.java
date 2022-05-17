@@ -3,7 +3,7 @@ public class StartsWithLetter {
     public String startsWithLetter(String str1) {
         String str2 = "";
 
-        if (str1.length() > 0 && str1 != null) {
+        if (str1 != null && str1.length() > 0) {
 
             str1 = str1.replace(",", "");
             str1 = str1.replace(".", "");

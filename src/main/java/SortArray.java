@@ -3,7 +3,7 @@ public class SortArray {
 
     public int[] sortArray(int[] array) {
 
-        if (utils.notEmptyArrays(array) == true) {
+        if (utils.isNotEmptyArrays(array) == true) {
 
             int temp = 0;
 

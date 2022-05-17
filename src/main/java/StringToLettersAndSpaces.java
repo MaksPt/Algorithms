@@ -4,7 +4,7 @@ public class StringToLettersAndSpaces {
 
         String str2 = "";
 
-        if (str1.length() > 0 && str1 != null) {
+        if (str1 != null && str1.length() > 0) {
 
             int count = 0;
 

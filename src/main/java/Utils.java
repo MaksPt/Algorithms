@@ -1,6 +1,6 @@
 public class Utils {
 
-    public boolean intDiapason(int a) {
+    public boolean isIntDiapason(int a) {
         if (a < Integer.MAX_VALUE && a > Integer.MIN_VALUE) {
 
             return true;
@@ -11,7 +11,7 @@ public class Utils {
     }
 
 
-    public boolean notEmptyArrays(int[] array) {
+    public boolean isNotEmptyArrays(int[] array) {
         if (array.length > 0) {
 
             return true;

@@ -49,6 +49,16 @@ public class RemoveDuplicatesTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
+
+        @Test
+        public void testRemoveDuplicatesTestStrOneIsNull() {
+            String str1 = null;
+            String expectedResult = "";
+
+            String actualResult = removeDuplicates.removeDuplicates(str1);
+
+            Assertions.assertEquals(expectedResult, actualResult);
+    }
 }
 
 

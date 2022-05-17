@@ -3,7 +3,7 @@ public class SumArray {
 
     public int sumArray(int[] array) {
 
-        if (utils.notEmptyArrays(array) == true) {
+        if (utils.isNotEmptyArrays(array) == true) {
             int sum = 0;
             for (int i = 0; i < array.length; i++) {
                 sum += array[i];

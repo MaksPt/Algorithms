@@ -3,7 +3,7 @@ public class RemoveDuplicates {
     public String removeDuplicates(String str1) {
         String str2 = "";
 
-        if (str1.length() > 0 && str1 != null) {
+        if (str1 != null && str1.length() > 0) {
 
             str1 = str1.toLowerCase();
             char[] arr = str1.toCharArray();

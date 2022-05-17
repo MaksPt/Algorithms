@@ -3,7 +3,7 @@ public class OddIndices {
 
     public int[] oddIndices(int[] array) {
 
-        if (utils.notEmptyArrays(array) == true) {
+        if (utils.isNotEmptyArrays(array) == true) {
 
             int[] OddIndices = new int[array.length / 2];
             int count = 0;
